@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(255, 0, 119) !important;
+}
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+   border-bottom: 2px solid rgb(255, 0, 119);
+}
+#navbarSupportedContent button{
+    background: rgb(255, 0, 119);
+    width: 5rem;
+    border-radius: 15px;
+}
+/* Home*/
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+}
+#home{
+    background: linear-gradient(rgb(0,0,0,.1),rgb(0,0,0,.2)),url(hm.webp);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column; 
+}
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ff008c,
+                 0px 2px 0px #ff008c,
+                 0px 3px 0px #ff008c,
+                 0px 4px 0px #ff008c,
+                 0px 5px 0px #ff008c,
+                 0px 6px 0px #ff008c,
+                 0px 7px 0px #ff008c;
+}
+#home p{
+    font-size: 18px;
+    color: #fff;
+}
+#home .input-group{
+    width: 40%;
+    min-height: 45px;
+}
+.signin{
+    background-color: rgb(255, 0, 119)!important;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+/*--About--*/
+#about{
+    background: linear-gradient(to right,#ff008c,#ff008c 100%);
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+/*Products*/
+#product{
+    background: #e5e5e5;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#product img{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: .2s;
+}
+/**/
+#contact img{
+    height: 80%;
+    text-align: center;
+    justify-content: center;
+}
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+    margin-bottom: 50%;
+    
+}
+form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+footer{
+    margin-bottom: 5%;
+    width: 100%;
+    height: 10px;
+    background: rgba(0,0,0,.8);
+    margin: -30px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
